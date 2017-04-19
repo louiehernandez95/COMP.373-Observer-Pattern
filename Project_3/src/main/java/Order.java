@@ -33,12 +33,7 @@ public class Order implements Subject {
         price= newPrice;
         sendNotification();
     }
-
     public int getPrice() {
         return price;
-    }
-
-    public ArrayList<Observer> getOrderObservers() {
-        return OrderObservers;
     }
 }

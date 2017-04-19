@@ -16,7 +16,7 @@ public class GroupCustomer implements Observer {
     @Override
     public void update() {
         currentPrice = order.getPrice();
-        System.out.println("Keg customer, " + name + ", received a notification. " +
+        System.out.println("Group customer, " + name + ", received a notification. " +
                 "The current price is set to $" + currentPrice + ".");
     }
 }

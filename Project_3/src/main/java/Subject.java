@@ -2,9 +2,7 @@
  * Created by louie on 4/15/2017.
  */
 public interface Subject {
-    public void addObserver(Observer orderObserver);
-
-    public void removeObserver(Observer orderObserver);
-
-    public void sendNotification();
+    void addObserver(Observer orderObserver);
+    void removeObserver(Observer orderObserver);
+    void sendNotification();
 }
